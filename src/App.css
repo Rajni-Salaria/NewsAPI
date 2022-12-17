@@ -1,0 +1,23 @@
+
+a {
+    text-decoration: none;
+    color: black;
+    /* text-decoration: underline; */
+}
+
+
+ul.navbar-nav {
+    margin: 0 319px;
+}
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    ul.navbar-nav {
+        margin: 0 0px;
+    }
+}
+
+li.nav-item.p-2.fs-4 {
+    cursor: pointer;
+}
+h2.mt-3.text-center {
+    text-transform: capitalize;
+}
